@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+/* <!-- header css start here --> */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/swide-view-athlete.jpg);
+    background-size:cover;
+    background-position: top;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+h2.logo {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+}
+span {
+    color: red;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .6s;
+}
+nav ul li a:hover{
+    color: red;
+}
+.btn {
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: transform .6s;
+}
+.btn:hover{
+    color: white;
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 40%;
+    left: 8%;
+}
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 60px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+}
+.newsletter form input:first-child{
+   
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    
+}
+.newsletter form input:last-child{
+    
+    position: absolute;
+        
+    display: inline-block;
+        
+    outline: none;
+        
+    border: none;
+        
+    padding: 10px 30px;
+        
+    border-radius: 30px;
+    border: 2px solid red;
+    background-color: red;
+    color: black;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 198.5px;
+    
+    right: 273px;
+    transition: transform 2s;
+    }
+    .newsletter form input:last-child:hover{
+         transform: rotate(360deg) scale(1.5);
+    }
+    /* about area css here */
+    .introduce{
+     background-color:black;
+     padding: 100px 0px;
+     width:100%;
+    }
+    .main img{
+      width: auto;
+      height: 500px;
+      border-radius: 20px;
+      margin-left: 10%;
+      
+    }
+    .about-text{
+        width: 550px;
+        margin-left: 58px;
+    }
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .about-text h2{
+        color: white;
+        font-weight: bold;
+        font-size: 55px;
+        margin-bottom: 20px;
+    }
+    .about-text h5{
+        color: white;
+        font-weight: initial;
+        font-size: 30px;
+        margin-bottom: 25px;
+
+    }
+    .about-text p{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 45px;
+        letter-spacing: 1px;
+        text-align: justify;
+        line-height: 28px;
+    }
+    button{
+        background-color:black;
+        padding: 7px 20px;
+        border-radius: 35px;
+        color: white;
+        font-size: 20px;
+        border: 2px solid rgb(255, 1, 1);
+        transition: .9s;
+        
+    }
+    button:hover{
+        background-color: rgb(232, 0, 0);
+       
+        
+    }
+    .services{
+        height: 500px;
+        background-color: #000;
+    }
+    .tittle h2{
+        color: white;
+        font-size: 40px;
+    }
+    .card{
+        color: white;
+        font-size: 30px;
+    }
