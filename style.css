@@ -49,9 +49,11 @@ nav ul li a {
     font-size: 20px;
     font-weight: bold;
     transition: .6s;
+
 }
 nav ul li a:hover{
     color: red;
+   
 }
 .btn {
     background-color: red;
@@ -197,6 +199,8 @@ h6{
        
         
     }
+
+    /* services css */
     .services{
        
         width: 100%;
